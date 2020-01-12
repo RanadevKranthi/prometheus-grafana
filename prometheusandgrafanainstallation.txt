@@ -65,7 +65,6 @@ Then You can access the prometheus dashboard
 Then to monitor the Linux server we have to configure nodeport pluggin
 
 wget https://github.com/prometheus/node_exporter/releases/download/v0.17.0/node_exporter-0.17.0.linux-amd64.tar.gz
-wget https://github.com/prometheus/node_exporter/releases/download/v0.17.0/node_exporter-0.17.0.linux-amd64.tar.gz
 
 sudo tar -xvzf node_exporter-0.17.0.linux-amd64.tar.gz
 sudo useradd -rs /bin/false nodeusr
